@@ -1,60 +1,86 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/utilities";
 @import '~antd/dist/antd.css';
-@import "css/blog.css";
-@import "css/events.css";
-@import "css/player.scss";
-@import "css/courses.scss";
+
+.card-header {
+  justify-content: space-between;
+
+  .bulb {
+    text-align: center;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  .header p {
+    font-size: 12px;
+    white-space: normal;
+    color: #8c8c8c;
+  }
+
+}
 
 .login-form {
-    max-width: 300px;
+  max-width: 300px;
 }
+
 .login-form-forgot {
-    float: right;
+  float: right;
 }
+
 .login-form-button {
-    width: 100%;
+  width: 100%;
 }
 
 .ant-layout-header {
-    z-index: 100;
+  z-index: 100;
 }
 
 .ant-layout-header .logo {
-    /*width: 120px;*/
-    /*height: 31px;*/
-    /*background: rgba(255,255,255,.2);*/
-    margin: 0 24px 0 24px;
-    float: left;
+  /*width: 120px;*/
+  /*height: 31px;*/
+  /*background: rgba(255,255,255,.2);*/
+  margin: 0 24px 0 24px;
+  float: left;
 }
 
 .pull-left {
-    float: left;
+  float: left;
 }
 
 .pull-right {
-    float: right;
+  float: right;
 }
 
 .custom .trigger {
-    font-size: 18px;
-    line-height: 64px;
-    padding: 0 24px;
-    cursor: pointer;
-    transition: color .3s;
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
 }
 
-.custom  .trigger:hover {
-    color: #1890ff;
+.custom .trigger:hover {
+  color: #1890ff;
 }
 
-.custom  .logo {
-    height: 32px;
-    background: rgba(255,255,255,.2);
-    margin: 16px;
+.custom .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, .2);
+  margin: 16px;
 }
-
 
 .ant-card {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 

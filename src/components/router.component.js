@@ -1,13 +1,15 @@
 import React from 'react' ;
 import {Route} from 'react-router-dom' ;
 
-import DashboardComponent from './common/dashboard.component' ;
+import Dashboard from './dashboard/Dashboard' ;
+import Library from "./Library/Library";
 
 
 const RouterComponent = () => {
     return (
         <div>
-            <Route exact path='/' component={DashboardComponent}/>
+            <Route exact path='/' component={Dashboard}/>
+            <Route path='/library' component={Library}/>
             {/* <Route path='/player' component={PlayerComponent}/> */}
         </div>
     )
