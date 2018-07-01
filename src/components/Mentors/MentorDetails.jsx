@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-class BookDetails extends Component {
+class MentorDetails extends Component {
     render() {
         return (
             <div>
-                Display the Book
+                Details Of Mentors.
             </div>
         );
     }
 }
 
-BookDetails.propTypes = {};
+MentorDetails.propTypes = {};
 
-export default BookDetails;
+export default MentorDetails;

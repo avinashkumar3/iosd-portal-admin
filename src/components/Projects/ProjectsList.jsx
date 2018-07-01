@@ -2,59 +2,58 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom' ;
 import {Row, Col, Card,Button} from 'antd' ;
 
-class LibraryBookList extends Component {
+class ProjectsList extends Component {
     render() {
         return (
             <div>
-               Books List
+               Projects List
                 <Row>
                     <Col span={6}>
-                        <Card>
-                        <h6>Book on C/C++ Programming Languages</h6>
-                        <p>Book ID:1</p>
-                        <hr />
-                            <Link to='/library/book/1234'>
+                    <Card>
+                    <h6>Project on E-Commerce with PHP</h6>
+                    <p>Project ID:12</p>
+                      <hr />
+                        <Link to='/projects/21'>
                             <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
-                            </Link>
-                        </Card>
-                    </Col>
-                    <Col span={6}>
-                        <Card>
-                        <h6>Book on Java Programming Languages</h6>
-                        <p>Book ID:10</p>
-                        <hr />
-                            <Link to='/library/book/1234'>
-                            <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
-                            </Link>
-                        </Card>
-                    </Col>
-                    <Col span={6}>
-                        <Card>
-                        <h6>Books on Machine Learning and Python</h6>
-                        <p>Book ID:14</p>
-                        <hr />
-                            <Link to='/library/book/1234'>
-                            <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
+                        </Link>
+                    </Card>
+                </Col>
 
+                    <Col span={6}>
+                        <Card>
+                        <h6>Project on Banking Management</h6>
+                        <p>Project ID:11</p>
+                        <hr />
+                            <Link to='/projects/22'>
+                            <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
                             </Link>
                         </Card>
                     </Col>
                     <Col span={6}>
                         <Card>
-                        <h6>Books on Artificial Intelligence and IOT</h6>
-                        <p>Book ID:13</p>
+                        <h6>Project on Earthquake Prediction</h6>
+                        <p>Project ID:21</p>
                         <hr />
-                            <Link to='/library/book/1234'>
+                            <Link to='/projects/23'>
+                            <Button className='btn btn-sm btn-outline-primary'>View detail</Button>                            </Link>
+                        </Card>
+                    </Col>
+                    <Col span={6}>
+                        <Card>
+                        <h6>Project on Collecting Data from Water Bodies</h6>
+                    <p>Project ID:22</p>
+                      <hr />
+                            <Link to='/projects/24'>
                             <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
                             </Link>
                         </Card>
                     </Col>
                     <Col span={6}>
                     <Card>
-                    <h6>Book on DataBase Management</h6>
-                        <p>Book ID:12</p>
-                        <hr />
-                        <Link to='/library/book/1234'>
+                    <h6>Project on Building Websites with React and Node JS</h6>
+                    <p>Project ID:12</p>
+                      <hr />
+                        <Link to='/projects/25'>
                         <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
                         </Link>
                     </Card>
@@ -67,4 +66,4 @@ class LibraryBookList extends Component {
 }
 
 
-export default LibraryBookList;
+export default ProjectsList;

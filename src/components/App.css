@@ -3440,7 +3440,7 @@ a.text-dark:hover, a.text-dark:focus {
   .card-header .header p {
     font-size: 12px;
     white-space: normal;
-    color: #8c8c8c; }
+    color: #9c9b9b; }
 
 .login-form {
   max-width: 300px; }
@@ -3455,10 +3455,122 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 100; }
 
 .ant-layout-header .logo {
-  /*width: 120px;*/
-  /*height: 31px;*/
-  /*background: rgba(255,255,255,.2);*/
-  margin: 0 24px 0 24px;
+  /* width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 0 24px 0 24px;*/
+  float: left; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.custom .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s; }
+
+.custom .trigger:hover {
+  color: #1890ff; }
+
+.custom .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px; }
+
+.ant-card {
+  margin-bottom: 10px; }
+
+/**********************  SCSS for Blogs *************************************/
+.card-header1 {
+  justify-content: space-between; }
+  .card-header1 .bulb {
+    text-align: center; }
+  .card-header1 .header {
+    font-size: 20px; }
+  .card-header1 .header p {
+    font-size: 12px;
+    white-space: normal;
+    color: #a09c9c;
+    margin-bottom: 2.1rem; }
+
+.login-form {
+  max-width: 300px; }
+
+.login-form-forgot {
+  float: right; }
+
+.login-form-button {
+  width: 100%; }
+
+.ant-layout-header {
+  z-index: 100; }
+
+.ant-layout-header .logo {
+  /* width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 0 24px 0 24px;*/
+  float: left; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.custom .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s; }
+
+.custom .trigger:hover {
+  color: #1890ff; }
+
+.custom .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px; }
+
+.ant-card {
+  margin-bottom: 10px; }
+
+/**********************  SCSS for Courses *************************************/
+.card-header2 {
+  justify-content: space-between; }
+  .card-header2 .bulb {
+    text-align: center; }
+  .card-header2 .header {
+    font-size: 20px; }
+  .card-header2 .header p {
+    font-size: 12px;
+    white-space: normal;
+    color: #a09c9c;
+    margin: 1.07rem; }
+
+.login-form {
+  max-width: 300px; }
+
+.login-form-forgot {
+  float: right; }
+
+.login-form-button {
+  width: 100%; }
+
+.ant-layout-header {
+  z-index: 100; }
+
+.ant-layout-header .logo {
+  /* width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 0 24px 0 24px;*/
   float: left; }
 
 .pull-left {

@@ -2,59 +2,58 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom' ;
 import {Row, Col, Card,Button} from 'antd' ;
 
-class LibraryBookList extends Component {
+class CoursesList extends Component {
     render() {
         return (
             <div>
-               Books List
+               Courses List
                 <Row>
                     <Col span={6}>
                         <Card>
-                        <h6>Book on C/C++ Programming Languages</h6>
-                        <p>Book ID:1</p>
+                        <h6>Course on AI</h6>
+                        <p>Course ID:51</p>
                         <hr />
-                            <Link to='/library/book/1234'>
+                            <Link to='/courses/1'>
                             <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
                             </Link>
                         </Card>
                     </Col>
                     <Col span={6}>
                         <Card>
-                        <h6>Book on Java Programming Languages</h6>
-                        <p>Book ID:10</p>
+                        <h6>Course on Machine Learning</h6>
+                        <p>Course ID:52</p>
                         <hr />
-                            <Link to='/library/book/1234'>
+                            <Link to='/courses/2'>
                             <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
                             </Link>
                         </Card>
                     </Col>
                     <Col span={6}>
                         <Card>
-                        <h6>Books on Machine Learning and Python</h6>
-                        <p>Book ID:14</p>
+                        <h6>Course on Java Application</h6>
+                        <p>Course ID:53</p>
                         <hr />
-                            <Link to='/library/book/1234'>
+                            <Link to='/courses/3'>
                             <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
-
                             </Link>
                         </Card>
                     </Col>
                     <Col span={6}>
                         <Card>
-                        <h6>Books on Artificial Intelligence and IOT</h6>
-                        <p>Book ID:13</p>
+                        <h6>Course on Web Development</h6>
+                        <p>Course ID:54</p>
                         <hr />
-                            <Link to='/library/book/1234'>
+                            <Link to='/courses/4'>
                             <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
                             </Link>
                         </Card>
                     </Col>
                     <Col span={6}>
                     <Card>
-                    <h6>Book on DataBase Management</h6>
-                        <p>Book ID:12</p>
+                    <h6>Course on Networks</h6>
+                        <p>Course ID:51</p>
                         <hr />
-                        <Link to='/library/book/1234'>
+                        <Link to='/courses/5'>
                         <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
                         </Link>
                     </Card>
@@ -67,4 +66,4 @@ class LibraryBookList extends Component {
 }
 
 
-export default LibraryBookList;
+export default CoursesList;
