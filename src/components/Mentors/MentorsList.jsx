@@ -2,38 +2,19 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom' ;
 import {Row, Col, Card,Button} from 'antd' ;
 
-class LibraryBookList extends Component {
+class MentorsList extends Component {
     render() {
         return (
             <div>
-               Books List
+               Mentors List
                 <Row>
                     <Col span={6}>
                         <Card>
-                        <h6>Book on C/C++ Programming Languages</h6>
-                        <p>Book ID:1</p>
+                        <h6>Mentor for Machine Learning</h6>
+                        <p>Mentor ID:41</p>
                         <hr />
-                            <Link to='/library/book/1234'>
-                            <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
-                            </Link>
-                        </Card>
-                    </Col>
-                    <Col span={6}>
-                        <Card>
-                        <h6>Book on Java Programming Languages</h6>
-                        <p>Book ID:10</p>
-                        <hr />
-                            <Link to='/library/book/1234'>
-                            <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
-                            </Link>
-                        </Card>
-                    </Col>
-                    <Col span={6}>
-                        <Card>
-                        <h6>Books on Machine Learning and Python</h6>
-                        <p>Book ID:14</p>
-                        <hr />
-                            <Link to='/library/book/1234'>
+ 
+                            <Link to='/mentors/6'>
                             <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
 
                             </Link>
@@ -41,20 +22,44 @@ class LibraryBookList extends Component {
                     </Col>
                     <Col span={6}>
                         <Card>
-                        <h6>Books on Artificial Intelligence and IOT</h6>
-                        <p>Book ID:13</p>
+                        <h6>Mentor for AI</h6>
+                        <p>Mentor ID:42</p>
                         <hr />
-                            <Link to='/library/book/1234'>
+ 
+                            <Link to='/mentors/7'>
+                            <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
+                            </Link>
+                        </Card>
+                    </Col>
+                    <Col span={6}>
+                        <Card>
+                        <h6>Mentor for Networking</h6>
+                        <p>Mentor ID:43</p>
+                        <hr />
+ 
+                            <Link to='/mentors/8'>
+                            <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
+                            </Link>
+                        </Card>
+                    </Col>
+                    <Col span={6}>
+                        <Card>
+                        <h6>Mentor for Web Development</h6>
+                        <p>Mentor ID:44</p>
+                        <hr />
+ 
+                            <Link to='/mentors/9'>
                             <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
                             </Link>
                         </Card>
                     </Col>
                     <Col span={6}>
                     <Card>
-                    <h6>Book on DataBase Management</h6>
-                        <p>Book ID:12</p>
+                        <h6>Mentor for Java Applications</h6>
+                        <p>Mentor ID:45</p>    
                         <hr />
-                        <Link to='/library/book/1234'>
+ 
+                        <Link to='/mentors/10'>
                         <Button className='btn btn-sm btn-outline-primary'>View detail</Button>
                         </Link>
                     </Card>
@@ -67,4 +72,4 @@ class LibraryBookList extends Component {
 }
 
 
-export default LibraryBookList;
+export default MentorsList;
